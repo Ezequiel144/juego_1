@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Juego</title>
+</head>
+<body>
+    <main>
+
+        <section class="parte_1">
+            <h1 class="titulo">Juego de la memoria</h1>
+            <table>
+    
+                <tr>
+                    <td><button id="0" onclick="darvuelta(0)"></button></td>
+                    <td><button id="1" onclick="darvuelta(1)"></button></td>
+                    <td><button id="2" onclick="darvuelta(2)"></button></td>
+                    <td><button id="3" onclick="darvuelta(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="darvuelta(4)"></button></td>
+                    <td><button id="5" onclick="darvuelta(5)"></button></td>
+                    <td><button id="6" onclick="darvuelta(6)"></button></td>
+                    <td><button id="7" onclick="darvuelta(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="darvuelta(8)"></button></td>
+                    <td><button id="9" onclick="darvuelta(9)"></button></td>
+                    <td><button id="10" onclick="darvuelta(10)"></button></td>
+                    <td><button id="11" onclick="darvuelta(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="darvuelta(12)"></button></td>
+                    <td><button id="13" onclick="darvuelta(13)"></button></td>
+                    <td><button id="14" onclick="darvuelta(14)"></button></td>
+                    <td><button id="15" onclick="darvuelta(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="parte_2">
+            <p id="aciertos">Aciertos: 0</p>
+            <p id="tiempo">Tiempo: 60 seg</p>
+            <p id="movimientos">Movimientos: 0</p>
+        </section>    
+    </main>
+    <footer>
+        <p class="dato_final">Este juego fue hecho por -> EZEQUIEL GARCIA PL 159</p>
+    </footer>
+    <script src="juego.js"></script>
+</body>
+</html>
